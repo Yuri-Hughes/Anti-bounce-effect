@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+
+<input type="text" oninput="rebound(this)">
+
+<script>
+let timeoutId;
+let Input = ""; 
+
+function rebound(inputElement) {
+    clearTimeout(timeoutId);
+
+    Input = inputElement.value; 
+
+    if (Input !== "") {
+        timeoutId = setTimeout(() => {
+            localStorage.setItem("inputValue", Input); 
+            console.log("New stored in page: " + localStorage.inputValue); 
+        }, 200); 
+    }
+    
+    console.log("Already stored in page: " + localStorage.inputValue);
+    console.log(Input);
+}
+
+</script>
+
+</body>
+</html>
