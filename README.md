@@ -1,2 +1,2 @@
-﻿# Bounce-effect
-In the context of saving user input, implementing a bounce effect allows the webpage to defer the process of saving the input until the user has finished typing, rather than attempting to save after every keystroke. This approach not only conserves computing resources by avoiding unnecessary save operations but also enhances the user experience by ensuring that the save process is seamlessly integrated with the user's natural typing rhythm.
+﻿# Anti Bounce-effect
+In the context of saving user input, implementing an anti bounce effect allows the webpage to defer the process of saving the input until the user has finished typing, rather than attempting to save after every keystroke. This approach not only conserves computing resources by avoiding unnecessary save operations but also enhances the user experience by ensuring that the save process is seamlessly integrated with the user's natural typing rhythm.
